@@ -3,6 +3,10 @@ package net.systemfileb.mods.strange;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.systemfileb.mods.strange.init.BucketStrangeModTabs;
+import net.systemfileb.mods.strange.init.BucketStrangeModSounds;
+import net.systemfileb.mods.strange.init.BucketStrangeModItems;
+
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
@@ -35,6 +39,11 @@ public class BucketStrangeMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		BucketStrangeModSounds.REGISTRY.register(modEventBus);
+
+		BucketStrangeModItems.REGISTRY.register(modEventBus);
+
+		BucketStrangeModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

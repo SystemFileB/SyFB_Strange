@@ -1,0 +1,8 @@
+{
+  "comparator_output": 2,
+  "description": {
+    "translate": "item.bucket_strange.speedrun_disc_background.desc"
+  },
+  "length_in_seconds": 319,
+  "sound_event": "bucket_strange:speedrun_disc_stereo"
+}

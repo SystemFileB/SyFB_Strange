@@ -1,0 +1,18 @@
+{
+  "speedrun_disc": {
+    "sounds": [
+      {
+        "name": "bucket_strange:speedrun_disc",
+        "stream": true
+      }
+    ]
+  },
+  "speedrun_disc_stereo": {
+    "sounds": [
+      {
+        "name": "bucket_strange:speedrun_disc_stereo",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "bucket_strange:speedrun_disc"
+    },
+    {
+      "item": "bucket_strange:speedrun_disc"
+    }
+  ],
+  "result": {
+    "id": "bucket_strange:speedrun_disc_background",
+    "count": 1
+  }
+}

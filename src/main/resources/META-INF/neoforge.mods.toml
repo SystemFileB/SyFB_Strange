@@ -1,31 +1,36 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="\u4EE3\u7801\uFF1ALGPLv3  \u56FE\u6807\uFF1ACC BY-SA 4.0"
 
 [[mods]]
 modId="bucket_strange"
-version="1.0.0"
+version="1.00"
 displayName="SyFB_Strange"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="adminWz, MCreator"
+displayURL="https://github.com/SystemFileB/SyFB_Strange"
+credits="MCreator (\u517C\u5BB9\u6027\u8B66\u544A\uFF01)"
+authors="SystemFileB"
 
 # Start of user code block mod configuration
+logoFile="pack.png"
+description="""这个是SystemFileB开发的一个基于MCreator的Mod，包含了一些逆天或实用的内容
+
+哔哩哔哩：https://space.bilibili.com/1376977060
+Wiki (WIP)：https://github.com/SystemFileB/SyFB_Strange/wiki"""
 # End of user code block mod configuration
 
 [[dependencies.bucket_strange]]
-    modId="neoforge"
-    type="required"
-    versionRange="[21.1.65,)"
-    ordering="AFTER"
-    side="BOTH"
+modId="neoforge"
+type="required"
+versionRange="[21.1.65,)"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies.bucket_strange]]
-    modId="minecraft"
-    type="required"
-    versionRange="[1.21.1]"
-    ordering="AFTER"
-    side="BOTH"
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="BOTH"
 
 
 

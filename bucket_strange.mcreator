@@ -1,11 +1,111 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Bucketstrange",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bucketstrange",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SpeedrunDisc",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedrun_disc",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bucket_strange/jukebox_song/speedrun_disc.json",
+          "src/main/resources/assets/bucket_strange/models/item/speedrun_disc.json",
+          "src/main/java/net/systemfileb/mods/strange/item/SpeedrunDiscItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SpeedrunDiscEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedrun_disc_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/systemfileb/mods/strange/procedures/SpeedrunDiscEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedrunDiscBackground",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speedrun_disc_background",
+      "metadata": {
+        "files": [
+          "src/main/java/net/systemfileb/mods/strange/item/SpeedrunDiscBackgroundItem.java",
+          "src/main/resources/data/bucket_strange/jukebox_song/speedrun_disc_background.json",
+          "src/main/resources/assets/bucket_strange/models/item/speedrun_disc_background.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "speedrun_disc",
+      "files": [
+        "speedrun_disc"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "speedrun_disc_stereo",
+      "files": [
+        "speedrun_disc_stereo"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:SpeedrunDiscBackground",
+      "~CUSTOM:SpeedrunDisc"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.bucket_strange.speedrun_disc": "Speedrun Disc",
+      "item.bucket_strange.speedrun_disc.desc": "Bobby Cole - Trance Music for Racing Game",
+      "subtitles.speedrun_disc": "",
+      "item.bucket_strange.speedrun_disc_background": "Speedrun Disc",
+      "subtitles.speedrun_disc_stereo": "",
+      "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (Stereo)",
+      "item_group.bucket_strange.bucketstrange": "SyFB\u0027s Strange Mod"
+    },
+    "zh_cn": {
+      "item.bucket_strange.speedrun_disc": "速通の小曲",
+      "item.bucket_strange.speedrun_disc.desc": "Bobby Cole - Trance Music for Racing Game",
+      "subtitles.speedrun_disc": "",
+      "item.bucket_strange.speedrun_disc_background": "速通の小曲 (背景音)",
+      "subtitles.speedrun_disc_stereo": "",
+      "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (立体声)",
+      "item_group.bucket_strange.bucketstrange": "SyFBの奇怪Mod"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -14,16 +114,17 @@
   "workspaceSettings": {
     "modid": "bucket_strange",
     "modName": "SyFB_Strange",
-    "version": "1.0.0",
-    "author": "adminWz, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "version": "1.00",
+    "author": "SystemFileB",
+    "websiteURL": "https://github.com/SystemFileB/SyFB_Strange",
+    "license": "代码：LGPLv3  图标：CC BY-SA 4.0",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "MCreator (兼容性警告！)",
     "modElementsPackage": "net.systemfileb.mods.strange"
   },
   "mcreatorVersion": 202400452410

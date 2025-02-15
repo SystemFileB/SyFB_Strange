@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "c:music_discs"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "id": "bucket_strange:speedrun_disc",
+    "count": 1
+  }
+}

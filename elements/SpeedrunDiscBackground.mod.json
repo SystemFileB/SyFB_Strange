@@ -1,0 +1,66 @@
+{
+  "_fv": 73,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "speedrun_disc_background",
+    "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
+    "name": "Speedrun Disc",
+    "rarity": "UNCOMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Bucketstrange"
+      }
+    ],
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 32,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 9.99,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "SpeedrunDiscEffect"
+    },
+    "enableRanged": false,
+    "shootConstantly": false,
+    "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
+    "projectileDisableAmmoCheck": false,
+    "isFood": true,
+    "nutritionalValue": 10,
+    "saturation": 0.5,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "isMusicDisc": true,
+    "musicDiscMusic": {
+      "value": "CUSTOM:speedrun_disc_stereo"
+    },
+    "musicDiscDescription": "Bobby Cole - Trance Music for Racing Game (Stereo)",
+    "musicDiscLengthInTicks": 6380,
+    "musicDiscAnalogOutput": 2
+  }
+}
