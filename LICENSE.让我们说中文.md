@@ -1,4 +1,4 @@
-[EN](LICENSE.md) | ZH
+[EN](LICENSE.md) | ZH | [Icon License](LICENSE.Icon.md)
 
 > This is an unofficial translation of the GNU Lesser General Public License into Simplified Chinese. It was not published by the Free Software Foundation, and does not legally state the distribution terms for software that uses the GNU LGPL—only the original English text of the GNU LGPL does that. However, we hope that this translation will help Simplified Chinese speakers understand the GNU LGPL better. You may publish this translation, modified or unmodified, only under the terms at http://www.gnu.org/licenses/translations.html.
 

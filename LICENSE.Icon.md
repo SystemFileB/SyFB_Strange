@@ -1,3 +1,5 @@
+[EN](LICENSE.md) | [ZH](LICENSE.让我们说中文.md) | Icon License
+```text
 Attribution-ShareAlike 4.0 International
 
 =======================================================================
@@ -425,4 +427,4 @@ the avoidance of doubt, this paragraph does not form part of the
 public licenses.
 
 Creative Commons may be contacted at creativecommons.org.
-
+```

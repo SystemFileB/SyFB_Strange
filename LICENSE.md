@@ -1,5 +1,6 @@
+EN | [ZH](LICENSE.让我们说中文.md) | [Icon License](LICENSE.Icon.md)
+
 # GNU LESSER GENERAL PUBLIC LICENSE
-EN | [ZH](LICENSE.让我们说中文.md)
 
 Version 3, 29 June 2007
 
