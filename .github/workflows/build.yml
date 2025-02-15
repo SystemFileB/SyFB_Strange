@@ -3,7 +3,7 @@ name: Snapshot Build / 快照构建
 on: [push, pull_request]
 
 jobs:
-  snapshot-build-mod:
+  snapshot-build:
     runs-on: ubuntu-latest
     steps:
       - name: 获取仓库文件
