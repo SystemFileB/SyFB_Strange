@@ -26,5 +26,5 @@ jobs:
       - name: 上传 Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: mafish-crafting-snapshot-mod
+          name: SyFB_Strange-snapshot
           path: build/libs/*.jar
