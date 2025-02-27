@@ -1,16 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Bucketstrange",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bucketstrange",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "SpeedrunDisc",
       "type": "item",
       "compiles": true,
@@ -42,6 +32,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -57,6 +51,18 @@
           "src/main/java/net/systemfileb/mods/strange/item/SpeedrunDiscBackgroundItem.java",
           "src/main/resources/data/bucket_strange/jukebox_song/speedrun_disc_background.json",
           "src/main/resources/assets/bucket_strange/models/item/speedrun_disc_background.json"
+        ]
+      }
+    },
+    {
+      "name": "Fast",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/bucket_strange/enchantment/fast.json"
         ]
       }
     }
@@ -81,6 +87,19 @@
     }
   ],
   "tag_elements": {
+    "ENCHANTMENTS:minecraft:non_treasure": [
+      "~CUSTOM:Fast"
+    ],
+    "ITEMS:mod:enchant_fast": [
+      "CUSTOM:SpeedrunDisc",
+      "CUSTOM:SpeedrunDiscBackground"
+    ],
+    "ENCHANTMENTS:minecraft:tradeable": [
+      "~CUSTOM:Fast"
+    ],
+    "ENCHANTMENTS:minecraft:on_random_loot": [
+      "~CUSTOM:Fast"
+    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:SpeedrunDiscBackground",
       "~CUSTOM:SpeedrunDisc"
@@ -89,22 +108,24 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "enchantment.bucket_strange.fast": "§eMORE FAST!",
       "item.bucket_strange.speedrun_disc": "Speedrun Disc",
       "item.bucket_strange.speedrun_disc.desc": "Bobby Cole - Trance Music for Racing Game",
       "subtitles.speedrun_disc": "",
       "item.bucket_strange.speedrun_disc_background": "Speedrun Disc",
       "subtitles.speedrun_disc_stereo": "",
-      "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (Stereo)",
-      "item_group.bucket_strange.bucketstrange": "SyFB\u0027s Strange Mod"
+      "item_group.bucket_strange.bucket_strange": "SystemFileB\u0027s Strange Mod",
+      "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (Stereo)"
     },
     "zh_cn": {
+      "enchantment.bucket_strange.fast": "§e镐快点！",
       "item.bucket_strange.speedrun_disc": "速通の小曲",
       "item.bucket_strange.speedrun_disc.desc": "Bobby Cole - Trance Music for Racing Game",
       "subtitles.speedrun_disc": "",
       "item.bucket_strange.speedrun_disc_background": "速通の小曲 (背景音)",
       "subtitles.speedrun_disc_stereo": "",
-      "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (立体声)",
-      "item_group.bucket_strange.bucketstrange": "SyFBの奇怪Mod"
+      "item_group.bucket_strange.bucket_strange": "SyFBの奇怪Mod",
+      "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (立体声)"
     }
   },
   "foldersRoot": {

@@ -1,9 +1,10 @@
 {
+  "enchantment.bucket_strange.fast": "§eMORE FAST!",
   "item.bucket_strange.speedrun_disc": "Speedrun Disc",
   "item.bucket_strange.speedrun_disc.desc": "Bobby Cole - Trance Music for Racing Game",
   "subtitles.speedrun_disc": "",
   "item.bucket_strange.speedrun_disc_background": "Speedrun Disc",
   "subtitles.speedrun_disc_stereo": "",
-  "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (Stereo)",
-  "item_group.bucket_strange.bucketstrange": "SyFB\u0027s Strange Mod"
+  "item_group.bucket_strange.bucket_strange": "SystemFileB\u0027s Strange Mod",
+  "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (Stereo)"
 }

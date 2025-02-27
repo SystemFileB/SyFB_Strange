@@ -32,7 +32,7 @@ public class SpeedrunDiscItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		SpeedrunDiscEffectProcedure.execute(entity, itemstack);
+		SpeedrunDiscEffectProcedure.execute(world, entity, itemstack);
 		return retval;
 	}
 }

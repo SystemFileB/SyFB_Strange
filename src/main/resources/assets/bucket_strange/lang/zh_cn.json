@@ -1,9 +1,10 @@
 {
+  "enchantment.bucket_strange.fast": "§e镐快点！",
   "item.bucket_strange.speedrun_disc": "速通の小曲",
   "item.bucket_strange.speedrun_disc.desc": "Bobby Cole - Trance Music for Racing Game",
   "subtitles.speedrun_disc": "",
   "item.bucket_strange.speedrun_disc_background": "速通の小曲 (背景音)",
   "subtitles.speedrun_disc_stereo": "",
-  "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (立体声)",
-  "item_group.bucket_strange.bucketstrange": "SyFBの奇怪Mod"
+  "item_group.bucket_strange.bucket_strange": "SyFBの奇怪Mod",
+  "item.bucket_strange.speedrun_disc_background.desc": "Bobby Cole - Trance Music for Racing Game (立体声)"
 }

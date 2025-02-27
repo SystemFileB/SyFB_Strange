@@ -5,7 +5,17 @@
   "projectBrowserSplitPos": 305,
   "projectBrowserState": {
     "expandedPaths": [
-      "[, SyFB_Strange]"
+      "[, SyFB_Strange]",
+      "[, SyFB_Strange, Source (Gradle)]",
+      "[, SyFB_Strange, Source (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net]",
+      "[, SyFB_Strange, Source (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb]",
+      "[, SyFB_Strange, Source (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods]",
+      "[, SyFB_Strange, Source (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods\\strange]",
+      "[, SyFB_Strange, Source (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods\\strange, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods\\strange\\init]",
+      "[, SyFB_Strange, Source (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods\\strange, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\java\\net\\systemfileb\\mods\\strange\\procedures]",
+      "[, SyFB_Strange, Resources (Gradle)]",
+      "[, SyFB_Strange, Resources (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\resources\\data]",
+      "[, SyFB_Strange, Resources (Gradle), H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\resources\\data, H:\\MCreator_Mods\\SyFB_Strange\\src\\main\\resources\\data\\bucket_strange]"
     ]
   }
 }
