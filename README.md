@@ -1,7 +1,9 @@
-<p align="center"><img src="./src/main/resources/pack.png">
+<p align="center"><img src="./src/main/resources/pack.png" width=150>
 <h1 align="center">SyFB_Strange</h1>
 
-这个是SystemFileB开发的一个基于MCreator的Mod，包含了一些有意思的物品，附魔等  
+这个是SystemFileB开发的一个基于MCreator的Mod (以后可能不会继续用它了)，包含了一些一般人想不到的的物品，附魔等 
+大部分物品都包含了对应的梗，在Wiki中会提到，比如钢管之类的
+
 可能会破坏原版的生存模式平衡，请谨慎游玩
 
 这个Mod的支持版本尽可能跟进MCreator的生成器支持的版本，可能不会考虑Fabric
